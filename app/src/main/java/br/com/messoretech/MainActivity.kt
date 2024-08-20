@@ -21,5 +21,11 @@ class MainActivity : AppCompatActivity() {
         binding.cvButtons.setOnClickListener {
             startActivity(ButtonsActivity.createIntent(this))
         }
+
+        binding.cvTextFields.setOnClickListener {
+            startActivity(TextFieldsActivity.createIntent(this))
+        }
     }
+
+
 }
