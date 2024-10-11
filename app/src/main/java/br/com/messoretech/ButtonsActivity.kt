@@ -13,11 +13,6 @@ class ButtonsActivity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
     super.onCreate(savedInstanceState, persistentState)
-    setContentView(binding.root)
-  }
-
-  companion object {
-    fun createIntent(context: Context): Intent = Intent(context, ButtonsActivity::class.java)
-
+    setContentView(R.layout.activity_buttons)
   }
 }
